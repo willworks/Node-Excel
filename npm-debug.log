@@ -1,0 +1,81 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'F:\\nodejs\\node.exe',
+1 verbose cli   'F:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node-xslx',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose config Skipping project config: C:\Users\kevin.zhong/.npmrc. (matches userconfig)
+5 verbose install initial load of C:\Users\kevin.zhong\package.json
+6 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\body-parser\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\express\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\formidable\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\gulp\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\gulp-clean\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\gulp-concat\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\gulp-connect\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\gulp-imagemin\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\gulp-jshint\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\gulp-livereload\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\gulp-minify-css\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\gulp-rename\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\gulp-ruby-sass\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\gulp-uglify\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\gulp-util\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\node-xlsx\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\nvm\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\kevin.zhong\node_modules\tiny-lr\package.json
+24 info package.json nvm@0.0.3 license should be a valid SPDX license expression
+25 info package.json gulp-clean@0.3.1 No license field.
+26 info package.json formidable@1.0.17 No license field.
+27 info package.json gulp-rename@1.2.2 No license field.
+28 info package.json node-xlsx@0.6.0 license should be a valid SPDX license expression
+29 verbose readDependencies loading dependencies from C:\Users\kevin.zhong\package.json
+30 silly cache add args [ 'node-xslx', null ]
+31 verbose cache add spec node-xslx
+32 silly cache add parsed spec Result {
+32 silly cache add   raw: 'node-xslx',
+32 silly cache add   scope: null,
+32 silly cache add   name: 'node-xslx',
+32 silly cache add   rawSpec: '',
+32 silly cache add   spec: '*',
+32 silly cache add   type: 'range' }
+33 silly addNamed node-xslx@*
+34 verbose addNamed "*" is a valid semver range for node-xslx
+35 silly addNameRange { name: 'node-xslx', range: '*', hasData: false }
+36 silly mapToRegistry name node-xslx
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry http://registry.npm.taobao.org/
+39 silly mapToRegistry uri http://registry.npm.taobao.org/node-xslx
+40 verbose addNameRange registry:http://registry.npm.taobao.org/node-xslx not in flight; fetching
+41 verbose request uri http://registry.npm.taobao.org/node-xslx
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 16:03:24
+44 verbose request id f9762b7b05f3c307
+45 http request GET http://registry.npm.taobao.org/node-xslx
+46 info retry will retry, error on last attempt: Error: read ECONNRESET
+47 info attempt registry request try #2 at 16:04:05
+48 http request GET http://registry.npm.taobao.org/node-xslx
+49 info retry will retry, error on last attempt: Error: read ECONNRESET
+50 info attempt registry request try #3 at 16:05:39
+51 http request GET http://registry.npm.taobao.org/node-xslx
+52 verbose stack Error: read ECONNRESET
+52 verbose stack     at exports._errnoException (util.js:874:11)
+52 verbose stack     at TLSWrap.onread (net.js:544:26)
+53 verbose cwd C:\Users\kevin.zhong\Desktop\Node-Excel
+54 error Windows_NT 6.3.9600
+55 error argv "F:\\nodejs\\node.exe" "F:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "node-xslx" "--save"
+56 error node v4.2.1
+57 error npm  v2.14.7
+58 error code ECONNRESET
+59 error errno ECONNRESET
+60 error syscall read
+61 error network read ECONNRESET
+61 error network This is most likely not a problem with npm itself
+61 error network and is related to network connectivity.
+61 error network In most cases you are behind a proxy or have bad network settings.
+61 error network
+61 error network If you are behind a proxy, please make sure that the
+61 error network 'proxy' config is set properly.  See: 'npm help config'
+62 verbose exit [ 1, true ]
